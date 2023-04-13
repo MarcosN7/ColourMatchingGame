@@ -1,0 +1,52 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Style for the game container */
+  .game-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+/* CSS for game board */
+.game-board {
+  display: flex;
+  justify-content: center; /* Align items horizontally to center */
+  align-items: center; /* Align items vertically to center */
+  flex-wrap: wrap; /* Wrap tiles to next line when they overflow */
+  max-width: 400px; /* Set maximum width for game board */
+  margin: 0 auto; /* Center the game board horizontally using margin auto */
+}
+
+  /* Style for the game tile */
+  .tile {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc; /* Default background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style for game info section */
+  .game-info {
+    margin-top: 20px;
+  }
+  
+  /* Style for game messages */
+  .message {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
